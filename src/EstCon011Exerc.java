@@ -30,14 +30,14 @@ public class EstCon011Exerc {
 
         var imc = kg/(h*h);
 
-//        switch (imc){
-//            case imc<=18.5 -> System.out.printf("Com peso %s e altura %s = você está abaixo do peso", kg, h, imc);
-//            case imc<=24.9 -> System.out.printf("Com peso %s e altura %s = você está no peso ideal", kg, h, imc);
-//            case imc<=29.9 -> System.out.printf("Com peso %s e altura %s = você está levemente acima do peso", kg, h, imc);
-//            case imc<=34.9 -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau I", kg, h, imc);
-//            case imc<=39.9 -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau II (severa)", kg, h, imc);
-//            default -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau III (mórbida)", kg, h, imc);
-//        }
+        //  switch (imc){
+        //  case imc<=18.5 -> System.out.printf("Com peso %s e altura %s = você está abaixo do peso", kg, h, imc);
+        //  case imc<=24.9 -> System.out.printf("Com peso %s e altura %s = você está no peso ideal", kg, h, imc);
+        //  case imc<=29.9 -> System.out.printf("Com peso %s e altura %s = você está levemente acima do peso", kg, h, imc);
+        //  case imc<=34.9 -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau I", kg, h, imc);
+        //  case imc<=39.9 -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau II (severa)", kg, h, imc);
+        //  default -> System.out.printf("Com peso %s e altura %s = você está com obesidade Grau III (mórbida)", kg, h, imc);
+        // }
         // aqui não pode usar doble e tem de ser n° já fixo e único, não pode intervalor
         // no input por virgula e não ponto
         // para deixar casas deciais com quantidd específica %.n°
