@@ -55,21 +55,20 @@ public class OrganizandoEstoque {
 
         for (String loja : lojas) {
             /*
-            1° quebra o caracteres em duas parte, usando : com delimitador
+            1° partes o caracteres em duas parte, usando : com delimitador
             2° índice 0, 1° parte, é a chave, que neste caso recebe tratamento de retira de espaço desnecessário
             3° índice 1, 2° parte, é o valor, convertido em int, que também recebe tratamento de retirada de
             espaços desnecessários
              */
-            String[] quebra = loja.split(":");
-            String chave = quebra[0].trim();
-            int valor = Integer.parseInt(quebra[1].trim());
+            String[] partes = loja.split(":");
+            String codigo = partes[0].trim();
+            int quantidade = Integer.parseInt(partes[1].trim());
 
-            // TODO: Atualize a valor total no mapa (soma com o valor atual, se já existir)
-            estoque.put(chave, estoque.getOrDefault(chave,0) + valor);
 
+            // TODO: Atualize a quantidade total no mapa (soma com o quantidade atual, se já existir)
+            estoque.put(codigo, estoque.getOrDefault(codigo,0) + quantidade);
 
         }
-
 
         StringBuilder sb = new StringBuilder();
 
@@ -84,7 +83,6 @@ public class OrganizandoEstoque {
             // , separador de elementos ela separa chave/valor de outra chave/valor
 
         }
-
 
         if (sb.length() > 0) {
             sb.setLength(sb.length() - 1);

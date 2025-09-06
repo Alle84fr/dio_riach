@@ -7,7 +7,7 @@ public class Fun06Exer {
 
         var sc = new Scanner(System.in);
 
-        //01 - Escreva um código que receba o nome e o ano de nascimmentos e imprima na tala "Olá fulano, vc tem x anos
+        //01 - Escreva um código que receba o nome e o ano de nascimentos e imprima na tala "Olá fulano, vc tem x anos
 
         //1° print na tela,segundo receber valor, 3° conta e por fim print
 
